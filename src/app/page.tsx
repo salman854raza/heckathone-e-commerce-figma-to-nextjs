@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
@@ -12,6 +13,7 @@ export default function Home() {
     <Navbar/> 
     <Hero/> 
     {/* <EditorsPick /> */}
+    <Footer/>
 
 
    </div>

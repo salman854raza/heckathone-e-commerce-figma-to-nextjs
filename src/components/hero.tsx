@@ -119,6 +119,36 @@ export default function hero() {
           </div>
         </div>
       </section>
+      <section className="relative">
+  {/* First Image */}
+  <div className="w-full h-auto">
+    <img 
+      src="./menbggreen.png" 
+      alt="Background Green" 
+      className="w-full h-auto object-cover" 
+    />
+  </div>
+
+  {/* Second Image */}
+  <div className="w-full h-auto mt-4">
+    <img 
+      src="./neural-universe.png" 
+      alt="Neural Universe" 
+      className="w-full h-auto object-cover" 
+    />
+  </div>
+
+  {/* Third Image */}
+  <div className="w-full h-auto mt-4">
+    <img 
+      src="./Feature Post.png" 
+      alt="Feature Post" 
+      className="w-full h-auto object-cover" 
+    />
+  </div>
+</section>
+
       </main>
+      
   );
 }
