@@ -11,7 +11,7 @@ export default function hero() {
     "./men1.png",
     "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
     "https://images.unsplash.com/photo-1481349518771-20055b2a7b24",
-    "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+    "./cover1.png",
   ];
 
 
