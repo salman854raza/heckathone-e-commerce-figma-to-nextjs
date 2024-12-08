@@ -142,7 +142,7 @@ export default function hero() {
   <div className="w-full h-auto mt-4">
     <img 
       src="./Feature Post.png" 
-      alt="Feature Post" 
+      alt="feature post" 
       className="w-full h-auto object-cover" 
     />
   </div>

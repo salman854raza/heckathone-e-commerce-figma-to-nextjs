@@ -70,11 +70,15 @@ const Footer = () => {
             <h3 className="font-semibold text-gray-800">Get In Touch</h3>
             <form className="mt-4">
               <div className="flex">
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="p-2 w-full border border-gray-300 rounded-l-md focus:outline-none focus:ring focus:ring-blue-300"
-                />
+              <input
+  type="email"
+  id="email"
+  name="email"
+  placeholder="Your Email"
+  className="p-2 w-full border border-gray-300 rounded-l-md focus:outline-none focus:ring focus:ring-blue-300"
+  autoComplete="email"
+/>
+
                 <button
                   type="submit"
                   className="bg-blue-500 text-white px-4 py-2 rounded-r-md hover:bg-blue-600"
